@@ -8,13 +8,6 @@ import java.util.ArrayList;
 
 public class TextFormatting {
 
-    public static void main(String[] args) {
-        String[] words = {"Tushar","Roy","Likes","To","Code"};
-        int width = 10;
-        ArrayList<String> result = new ArrayList<>();
-        formatParagraph(words,width,result);
-    }
-
     public static int formatParagraph(String[] words, int width, ArrayList<String> result)  {   
 
         int[][] cost = new int[words.length][words.length];
